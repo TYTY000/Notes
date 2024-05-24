@@ -1,0 +1,7 @@
+
+| pros                                                                                                                                                         | cons                                                                     |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------ |
+| Reusability                                                                                                                                                  | Performance penalty                                                      |
+| Easy testing                                                                                                                                                 | Managing partial failure                                                 |
+| More Agile friendly                                                                                                                                          | More development work                                                    |
+| responsible for developing, testing, and operating the microservice, allowing the microservice to be improved more quickly in response to customer requests. | Developers must learn about operations, and vice versa; hence “dev/ops.” |

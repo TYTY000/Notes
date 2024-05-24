@@ -1,0 +1,21 @@
+
+
+[](http://web.mit.edu/6.031/www/sp21/classes/12-interfaces-generics-enums/#@we-ve_now_completed)We’ve now completed our [Java toolbox of ADT concepts](http://web.mit.edu/6.031/www/sp21/classes/10-abstract-data-types/#realizing_adt_concepts_in_java) from the first ADTs reading:
+
+  
+
+|[](http://web.mit.edu/6.031/www/sp21/classes/12-interfaces-generics-enums/#@adt_concept)ADT concept|[](http://web.mit.edu/6.031/www/sp21/classes/12-interfaces-generics-enums/#@ways_do_java)Ways to do it in Java|[](http://web.mit.edu/6.031/www/sp21/classes/12-interfaces-generics-enums/#@examples)Examples|
+|---|---|---|
+|[](http://web.mit.edu/6.031/www/sp21/classes/12-interfaces-generics-enums/#@abstract_data_type)Abstract data type|[](http://web.mit.edu/6.031/www/sp21/classes/12-interfaces-generics-enums/#@single_class)Single class|[`String`](http://docs.oracle.com/en/java/javase/15/docs/api/java.base/java/lang/String.html)|
+||[](http://web.mit.edu/6.031/www/sp21/classes/12-interfaces-generics-enums/#@interface_class-es)Interface + class(es)|[](http://web.mit.edu/6.031/www/sp21/classes/12-interfaces-generics-enums/#@list_arraylist)[`List`](http://docs.oracle.com/en/java/javase/15/docs/api/java.base/java/util/List.html) and [`ArrayList`](http://docs.oracle.com/en/java/javase/15/docs/api/java.base/java/util/ArrayList.html)|
+||Enum|[](http://web.mit.edu/6.031/www/sp21/classes/12-interfaces-generics-enums/#@dayofweek)[`DayOfWeek`](http://docs.oracle.com/en/java/javase/15/docs/api/java.base/java/time/DayOfWeek.html)|
+|[](http://web.mit.edu/6.031/www/sp21/classes/12-interfaces-generics-enums/#@creator_operation)Creator operation|Constructor|[`ArrayList()`](http://docs.oracle.com/en/java/javase/15/docs/api/java.base/java/util/ArrayList.html#%3Cinit%3E())|
+|[](http://web.mit.edu/6.031/www/sp21/classes/12-interfaces-generics-enums/#@static_factory_method)Static (factory) method|[](http://web.mit.edu/6.031/www/sp21/classes/12-interfaces-generics-enums/#@list-of)[`List.of()`](http://docs.oracle.com/en/java/javase/15/docs/api/java.base/java/util/List.html#of(E...))|   |
+|[](http://web.mit.edu/6.031/www/sp21/classes/12-interfaces-generics-enums/#@constant)Constant|[](http://web.mit.edu/6.031/www/sp21/classes/12-interfaces-generics-enums/#@biginteger-zero)[`BigInteger.ZERO`](http://docs.oracle.com/en/java/javase/15/docs/api/java.base/java/math/BigInteger.html#ZERO)|
+|[](http://web.mit.edu/6.031/www/sp21/classes/12-interfaces-generics-enums/#@observer_operation)Observer operation|Instance method|[](http://web.mit.edu/6.031/www/sp21/classes/12-interfaces-generics-enums/#@list-get)[`List.get()`](http://docs.oracle.com/en/java/javase/15/docs/api/java.base/java/util/List.html#get(int))|
+|Static method|[](http://web.mit.edu/6.031/www/sp21/classes/12-interfaces-generics-enums/#@collections-max)[`Collections.max()`](http://docs.oracle.com/en/java/javase/15/docs/api/java.base/java/util/Collections.html#max(java.util.Collection))|
+|[](http://web.mit.edu/6.031/www/sp21/classes/12-interfaces-generics-enums/#@producer_operation)Producer operation|Instance method|[](http://web.mit.edu/6.031/www/sp21/classes/12-interfaces-generics-enums/#@string-trim)[`String.trim()`](http://docs.oracle.com/en/java/javase/15/docs/api/java.base/java/lang/String.html#trim())|
+|Static method|[](http://web.mit.edu/6.031/www/sp21/classes/12-interfaces-generics-enums/#@collections-unmodifiablelist)[`Collections.unmodifiableList()`](http://docs.oracle.com/en/java/javase/15/docs/api/java.base/java/util/Collections.html#unmodifiableList(java.util.List))|   |
+|[](http://web.mit.edu/6.031/www/sp21/classes/12-interfaces-generics-enums/#@mutator_operation)Mutator operation|Instance method|[](http://web.mit.edu/6.031/www/sp21/classes/12-interfaces-generics-enums/#@list-add)[`List.add()`](http://docs.oracle.com/en/java/javase/15/docs/api/java.base/java/util/List.html#add(E))|
+|Static method|[](http://web.mit.edu/6.031/www/sp21/classes/12-interfaces-generics-enums/#@collections-copy)[`Collections.copy()`](http://docs.oracle.com/en/java/javase/15/docs/api/java.base/java/util/Collections.html#copy(java.util.List,java.util.List))|
+|Representation|[](http://web.mit.edu/6.031/www/sp21/classes/12-interfaces-generics-enums/#@private_fields)`private` fields|

@@ -1,0 +1,3 @@
+•The driver enters the code and thinks tactically about how to complete the current task, explaining his or her thoughts out loud as appropriate while typing.
+
+• The observer or navigator—following the automobile analogy more closely—reviews each line of code as it is typed in, and acts as a safety net for the driver. The observer is also thinking strategically about future problems that will need to be addressed, and makes suggestions to the driver
