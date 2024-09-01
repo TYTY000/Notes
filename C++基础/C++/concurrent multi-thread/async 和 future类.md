@@ -25,7 +25,7 @@ future <int> result = async(&A::mythread, &a,variables);
 额外参数专门有个类(枚举类)：
 
 1.std::launch::deferred
-如果到wait/get的时候还没调用，就不执行了。
+lazy。
 auto result = async( launch::deferred,&A::mythread,&a ,variables)
 
 2.std::launch::async
